@@ -6,6 +6,7 @@ const data = Data({
     toggle: true,
 })
 
+
 export function Hover(): Override {
     return {
         whileHover: { scale: 1.05 },

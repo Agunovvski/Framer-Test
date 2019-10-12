@@ -1,20 +1,17 @@
 import * as React from "react"
-import { Override, Data, BackgroundImage } from "framer"
+import { Override, Data } from "framer"
 
 // Learn more: https://framer.com/docs/overrides/
 
 const appState = Data({
     taps: 0,
-    backgroundColor: '#181818'
 })
 
 export function TapFrame(props): Override {
     return {
-        borderRadius: 3,
+        borderRadius: 12,
         whileTap: {
             scale: 0.9,
-            borderRadius: 12,
-            rotate: 180
         },
         onTap: () => {
             appState.taps += 1
