@@ -42,8 +42,8 @@
         "isMaster" : false,
         "isTarget" : false,
         "left" : 455,
-        "locked" : false,
-        "name" : "Components",
+        "locked" : true,
+        "name" : "Components Background",
         "navigationTarget" : null,
         "navigationTransition" : "push",
         "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
@@ -1183,6 +1183,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"74at0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"74at0-0-0\" style=\"tab-size:4;font-family:&quot;Gotham-Book&quot;, &quot;Gotham&quot;, serif;-webkit-text-fill-color:#181818;font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:300\"><span data-text=\"true\">This is a simple task<\/span><\/span><\/div>",
+                "os" : "macos 10_15 framerx",
+                "size" : {
+                  "height" : 19,
+                  "width" : 159
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
